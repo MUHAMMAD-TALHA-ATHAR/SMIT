@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT REGISTRATION FORM</title>
+    <style>
+        h1 {
+            color: rgb(132, 67, 132);
+        }
+        form {
+            background-color: rgb(132, 67, 132);
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;"><u>STUDENT REGISTRATION FORM</u></h1>
+
+    <form >
+        <p>First Name &emsp;&emsp;&emsp;      
+        <input type="text" name="First Name" maxlength="30" id="First Name">
+        (max 30 characters a-z & A-Z)
+        </p>
+        <p>Last Name &emsp;&emsp;&emsp;&nbsp;      
+            <input type="text" name="Last Name" maxlength="30">
+            (max 30 characters a-z & A-Z)
+        </p>
+        <p>Date of Birth &emsp;&emsp;&emsp;&nbsp;
+            <label for="day">Day:</label>
+            <input type="number" id="day" name="day" min="1" max="31">
+
+            <label for="month">Month:</label>
+            <input type="number" id="month" name="month" min="1" max="12">
+
+            <label for="year">Year:</label>
+            <input type="number" id="year" name="year" min="1950" max="2099">
+        </p>
+        <p>Email id &emsp;&emsp;&emsp;&emsp;      
+            <input type="email" name="Email id">
+        </p>
+        <p>Mobile Number &emsp;
+            <input type="number" name="Mobile Number">
+            (11 digit number)
+        </p>
+        <p>Gender &emsp;&emsp;&emsp;&emsp;&nbsp;
+            Male<input type="radio" name="Gender" value="Male">
+            Female<input type="radio" name="Gender" value="Female">
+        </p>
+        <p>Address &emsp;&emsp;&emsp;&emsp; 
+            
+            <textarea name="Address" id="" cols="40" rows="5" style="vertical-align: top"></textarea>
+        </p>
+        <p>City &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;      
+            <input type="text" name="City" maxlength="30" id="First Name">
+            (max 30 characters a-z & A-Z)
+        </p>  
+         <p>Pin Code &emsp;&emsp;&emsp;&nbsp;&nbsp;
+            <input type="number" name="Pin Code" maxlength="6">
+            (6 digit number)
+         </p>
+        <p>State &emsp;&emsp;&emsp;&nbsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;   
+            <input type="text" name="State" maxlength="30">
+            (max 30 characters a-z & A-Z)
+        </p>
+        <p>Country &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="" id="">
+        </p>
+        <p>Hobbies &emsp;&emsp;&emsp;
+            <input type="checkbox" name="Hobbies"
+            value="drawing"> Drawing
+            <input type="checkbox" name="Hobbies"
+            value="singing" /> Singing
+            <input type="checkbox" name="Hobbies"
+            value="dancing" /> Dancing
+            <input type="checkbox" name="Hobbies"
+            value="Sketching" /> Sketching <br> 
+            &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="Hobbies" 
+            value="others" /> Others <textarea name="others" id="" cols="20" rows="1"></textarea>
+        </p>Qualification Table &emsp;&emsp;&emsp;&nbsp; SI. No Examination &emsp;&emsp;&emsp;&nbsp; Board 
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Percentage &emsp;&emsp;&emsp;&nbsp;&nbsp; Year of Passing
+        <br> &emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 
+        &emsp;&emsp;&nbsp; Class X &emsp;&nbsp;&nbsp;
+        <input type="text">
+        <input type="text">
+        <input type="text">
+        <br> &emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2 
+        &emsp;&emsp;&nbsp; Class Xll &emsp;
+        <input type="text">
+        <input type="text">
+        <input type="text">
+        <br> &emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3 
+        &emsp;&emsp;&nbsp; Graduation &nbsp;
+        <input type="text">
+        <input type="text">
+        <input type="text">
+        <br> &emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4 
+        &emsp;&emsp;&nbsp; Masters &emsp;&nbsp;&nbsp;
+        <input type="text">
+        <input type="text">
+        <input type="text">
+        <br>
+        &emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;(10 char max)
+        &emsp;&emsp;&emsp;&nbsp;(upto 2 decimal)
+        </p>
+        <p>Courses applied for &emsp;&emsp;&emsp;
+            BCA<input type="radio" name="Gender" value="BCA">
+            B.com<input type="radio" name="Gender" value="B.com">
+            B.Sc<input type="radio" name="Gender" value="B.Sc">
+            B.A<input type="radio" name="Gender" value="B.A">
+        </p>
+        &emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&nbsp;&emsp;&emsp;&nbsp;&emsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;<button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+</body>
+</html>
